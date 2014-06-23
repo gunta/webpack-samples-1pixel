@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <link rel="stylesheet"
+          href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <script src="bundle.js"></script>
+</head>
+<body>
+<tabs>
+    <pane title="Date">
+        Date: {{ '2015-06-25' | date:'fullDate' }} <br>
+    </pane>
+    <pane title="Number">
+        Number: {{ 98765.4321 | number }} <br>
+    </pane>
+    <pane title="Currency">
+        Currency: {{ 123456 | currency }} <br>
+    </pane>
+</tabs>
+</body>
+</html>
