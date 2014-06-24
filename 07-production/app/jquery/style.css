@@ -1,0 +1,10 @@
+#draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  background: #ff6b00;
+  cursor: crosshair;
+  font-weight: bold;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}

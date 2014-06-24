@@ -1,0 +1,29 @@
+{
+  "name": "todomvc-backbone-es6-webpack-example",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gunta/webpack-samples-1pixel",
+  "authors": [
+    "Gunther Brunner <gunta85@gmail.com>"
+  ],
+  "description": "A webpack example of the future, featuring ES6",
+  "main": "main.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "todomvc-common": "~0.1.9",
+    "jquery": "~2.1.1",
+    "lodash": "~2.4.1",
+    "backbone": "~1.1.2",
+    "backbone.localStorage": "~1.1.7"
+  }
+}
