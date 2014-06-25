@@ -105,7 +105,7 @@ class TodoView extends View {
 
   get isHidden() {
     const isCompleted = this.model.get('completed')
-    return (// hidden cases only
+    return (
       (!isCompleted && TodoFilter === 'completed') ||
       (isCompleted && TodoFilter === 'active')
       )
