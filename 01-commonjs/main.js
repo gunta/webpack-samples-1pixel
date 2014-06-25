@@ -1,4 +1,3 @@
 var math = require('./math');
 
-console.log(math.add(1, 2));
-// Outputs "3"
+alert('1 + 2 = ' + math.add(1, 2));
