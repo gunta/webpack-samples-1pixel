@@ -17,7 +17,7 @@ module.exports = {
     loaders: [
       { test: /\.css$/, loader: 'style!css' },
       // Required for bootstrap fonts
-      { test: /\.woff$/, loader: 'url?prefix=font/&limit=5000&mimetype=application/font-woff' },
+      { test: /\.woff(\d+)?$/, loader: 'url?prefix=font/&limit=5000&mimetype=application/font-woff' },
       { test: /\.ttf$/, loader: 'file?prefix=font/' },
       { test: /\.eot$/, loader: 'file?prefix=font/' },
       { test: /\.svg$/, loader: 'file?prefix=font/' }
