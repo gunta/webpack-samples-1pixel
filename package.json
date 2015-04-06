@@ -5,6 +5,8 @@
   "devDependencies": {
     "angular": "^1.2.18",
     "bootstrap": "^3.1.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.1",
     "compression-webpack-plugin": "^0.1.1",
     "css-loader": "^0.6.12",
     "es6-loader": "^0.2.0",
