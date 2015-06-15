@@ -3,7 +3,7 @@
 *The future is here:*
 It uses **ES6** and transpiles to ES5 with WebPack today.
 
-Based on [todomvc-backbone-es6](https://github.com/addyosmani/todomvc-backbone-es6).
+Based on [todomvc-backbone-es6](https://github.com/tastejs/todomvc-backbone-es6).
 
 ## Steps
 ``` sh
